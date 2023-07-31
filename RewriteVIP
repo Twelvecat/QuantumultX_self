@@ -5,6 +5,8 @@
 # 更新时间：2023.7.31 12:0
 #############################################
 
+hostname= buy.itunes.apple.com,ap*.intsig.net,fufei.fengyunsoft.cn,dict.youdao.com,i.weread.qq.com,ljwapi.baichuan.tech
+
 #Picsew滚动截图+解锁订阅
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Picsew.js
 #扫描全能王-手机扫描仪+解锁VIP
