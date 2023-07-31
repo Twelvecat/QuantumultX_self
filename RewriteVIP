@@ -1,0 +1,21 @@
+################################################################
+# 重写作用：解锁部分app的会员
+# 重要提示：脚本均收集于互联网，请尊重原创作者
+# 注意事项：当遇到部分软件无法联网时，记得取消勾选该重写
+# 更新时间：2023.7.31 12:0
+#############################################
+
+#Picsew滚动截图+解锁订阅
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Picsew.js
+#扫描全能王-手机扫描仪+解锁VIP
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/smqnw.js
+#白云天气-感知自然呼吸+解锁订阅
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/bytq.js
+#最美证件照+解锁VIP
+^https:\/\/fufei\.fengyunsoft\.cn\/api\/client\/info url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/zmzjz.js
+#网易有道词典+解锁VIP
+^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyydcd.js
+#微信读书+解锁无限卡会员
+^https:\/\/i\.weread\.qq\.com\/pay\/memberCardSummary url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/txwxds.js
+#莉景天气+解锁VIP
+^https:\/\/ljwapi\.baichuan\.tech url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ljtq.js
