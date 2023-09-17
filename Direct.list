@@ -58,4 +58,4 @@ DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,skype.com
 
-DOMAIN,m.hotmail.com
+DOMAIN-SUFFIX,hotmail.com
