@@ -5,7 +5,7 @@
 # 更新时间：2023.7.31 12:0
 #############################################
 
-hostname= buy.itunes.apple.com,ap*.intsig.net,fufei.fengyunsoft.cn,dict.youdao.com,i.weread.qq.com,ljwapi.baichuan.tech,explorer.tratao.com,api.boohee.com
+hostname= buy.itunes.apple.com,ap*.intsig.net,fufei.fengyunsoft.cn,dict.youdao.com,i.weread.qq.com,ljwapi.baichuan.tech,explorer.tratao.com,api.boohee.com,photos.adobe.io
 
 #Picsew滚动截图+解锁订阅
 # ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Picsew.js
@@ -26,3 +26,5 @@ hostname= buy.itunes.apple.com,ap*.intsig.net,fufei.fengyunsoft.cn,dict.youdao.c
 ^https:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjhl.js
 # 薄荷健康
 ^https?:\/\/api\.boohee\.com\/app-interface\/.+\/user\/user_info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bohejiankang.js
+# Lightroom
+^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://github.com/langkhach270389/Quantumult-X-LK/raw/master/Scripts/langkhach/lightroom.js
