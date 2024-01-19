@@ -13,6 +13,9 @@ DOMAIN-KEYWORD,-spotify-com
 # > Apple
 DOMAIN,testflight.apple.com
 
+# ZhiHu
+DOMAIN,103.41.167.237
+
 # ---(Apple)---
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
