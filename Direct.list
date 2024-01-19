@@ -14,7 +14,7 @@ DOMAIN-KEYWORD,-spotify-com
 DOMAIN,testflight.apple.com
 
 # ZhiHu
-DOMAIN,103.41.167.237:80
+IP-CIDR,103.41.167.237/32
 
 # ---(Apple)---
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
