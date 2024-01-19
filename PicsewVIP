@@ -1,0 +1,4 @@
+#Picsew滚动截图+解锁订阅
+
+hostname= buy.itunes.apple.com
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Picsew.js
